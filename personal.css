@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+   text-decoration: none;
+}
+body{
+background-color: aquamarine;
+}    
+.container{
+    position: absolute;
+ padding-top: 3vw; 
+ width: 12vw;
+ height: 45.5vw;  
+ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+ padding-left: 4vw;
+transition:transform 1s ease-in;
+}
+
+.container ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: bolder;
+    padding-top: 4vw;
+    color: aliceblue;
+text-emphasis: none;
+text-decoration: none;
+}
+#home{
+    color: black;
+    text-decoration: none;
+}
+#ham{
+    margin-right: 9vw;
+    padding-left :-9vw ;
+    position: sticky;
+width: 4vw;
+  height: 4vw;
+}
+#cross{
+    height: 2.5vw;
+    margin-top: -2vw;
+    margin-bottom: 1vw;
+    padding-left: 9.5vw;
+    position: sticky;
+}
+.main{
+    display: flex;
+    text-decoration: none;   
+font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    padding-left: 2vw;
+}
+.links{
+    padding-top: 10vw;
+    padding-left: 1.5vw;
+}
+.links img{
+    height: 2.5vw;
+}
+.content{
+color: rgb(14, 15, 16);
+}
+.intro{
+    padding-top: 12vw;
+    padding-left: 22vw;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+.para{
+    padding-top: 2vw;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+#hi{
+    font-size: 4vw;
+}
+.btn{
+    margin-top: 2vw;
+    cursor: pointer;
+    background-color: rgb(114, 238, 89);
+    height: 3vw;
+    width: 5vw;
+    border-radius: 1.3vw;
+     font: bold;
+color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(162, 28, 207);
+    color: aliceblue;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.imgmain img{
+    height: 40vw;
+    width: 35vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+}
+.form{
+   margin: 15vw;
+   padding-left: 15vw;
+}
+.about{
+    padding-left: 22vw;
+    padding-top: 10vw;
+}
+#put{
+    width: 40vw;
+}
+.logoimg img{
+    height: 30px;
+    width: 35px;
+}
+.logoimg{
+    margin-left: 11vw;
+    margin-top: -2vw;
+}
+#insta{
+    height: 2.5vw;
+    width: 2.5vw;
+}
+#face{
+    height: 2vw;
+    width: 3vw;
+}
+#twitter{
+    height: 2vw;
+    width: 2vw;
+}
+#linkedin{
+    height: 2vw;
+    width: 3vw;
+}
+.logos{
+    margin-top: 9vw;
+    margin-left: -2vw;
+}
